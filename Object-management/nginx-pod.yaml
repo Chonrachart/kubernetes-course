@@ -1,3 +1,6 @@
+# For documentation, equivalent to the imperative command:
+# kubectl run nginx-pod --image=nginx:1.27.0
+
 apiVersion: v1
 kind: Pod
 metadata:
