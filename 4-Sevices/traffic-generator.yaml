@@ -9,5 +9,6 @@ spec:
   - name: traffic-generator
     image: lmacademy/traffic-generator:1.0.0
     args: 
-      - '10.244.0.63/api'
-      - '0.5'
+      - '10.96.178.143/api' # ClusterIP Service IP 
+    # - 'color-api-clusterip/api' can use namespace and service name instead of IP
+      - '0.5' # 0.5 seconds between requests
